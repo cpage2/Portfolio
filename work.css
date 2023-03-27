@@ -1,4 +1,29 @@
+body{
+
+}
+
 .work{
     padding-top: 7%;
+    text-align: center;
     
 }
+
+#workTitle{
+    padding-bottom: 5%;
+}
+
+.col{
+   
+   
+    padding-bottom: 2%;
+    max-width: 400px;
+}
+.row{
+    margin: 0 auto;
+    text-align: end;
+}
+
+p{
+
+}
+
