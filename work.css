@@ -1,29 +1,43 @@
 body{
+    background-color: #FAF3DD;
+}
 
+.nav{
+    background-color: #93654D;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 50px;
+   
+}
+
+.nav-link.active{
+    color: #8FC0A9;
+}
+.nav-link , .nav-link.disabled{
+    color: #FAF3DD;
 }
 
 .work{
     padding-top: 7%;
     text-align: center;
     
+    
 }
 
 #workTitle{
     padding-bottom: 5%;
+    color: #93654D;
 }
 
-.col{
-   
-   
-    padding-bottom: 2%;
+.col{  
+   padding-bottom: 20px;
     max-width: 400px;
+    
 }
-.row{
-    margin: 0 auto;
-    text-align: end;
-}
+
+
 
 p{
-
+ color: #93654D;
 }
 
