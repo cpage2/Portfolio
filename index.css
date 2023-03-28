@@ -2,6 +2,10 @@ body{
     background-color: #FAF3DD;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 .nav{
     background-color: #93654D;
     max-width: 800px;
@@ -12,22 +16,31 @@ body{
 
 .nav-link.active{
     color: #8FC0A9;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 12pt;
+    font-weight: 400;
 }
 .nav-link , .nav-link.disabled{
     color: #FAF3DD;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 
 
 
 .greeting{
     padding-top: 10%;
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
 
 }
 
 #name{
     color: #4A7C59;
+    font-family: 'Playfair Display', serif;
+    font-size: 38pt;
 }
 
 .sm-icons{
@@ -36,7 +49,63 @@ body{
 
 }
 
+.sm-icons i{
+    padding: 7px;
+}
+
 #statement{
     color:#93654D;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 24pt;
 
+}
+
+/* .topLeftImg{
+    float: left;
+    transform: scaleX(-1);
+    position: static;
+}
+
+.topRightImg{
+
+    float: right;
+    position: static;
+    width: 2%;
+
+
+
+}
+
+
+.leftImg{
+    float: left;
+    transform: scaleX(-1);
+    position: static;
+    margin-top: 10%;
+    
+    width: 8%;
+    /* width: 120px; */
+    /* overflow: hidden; 
+}
+/*.rightImg{
+   float: right;
+   position: static;
+   margin-top: 10%;
+   transform: scaleY(-1);
+   width: 6%;
+   /* overflow: hidden; 
+ 
+   
+} */
+
+
+.bottomImg{
+    background-image: url(img/hammock.png);
+    background-position: bottom, center;
+    background-size: 60%;
+    background-repeat: no-repeat,repeat;
+    height: 350px;
+    position: static;
+   
 }
