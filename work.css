@@ -1,3 +1,48 @@
+
+.upperBd{
+    background-color: #10575A;
+    padding-bottom: 5%;
+}
+
+.nav p{
+    font-size: 20pt;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2pt;
+    float: left;
+    margin-left: 2pt;
+    color: white;
+    
+
+}
+.icons{
+   float: right;
+    margin-right: 10pt;
+}
+
+
+.greeting{
+    margin-top: 10%;
+  
+    
+}
+
+.greeting.container{
+    margin: 0 auto;
+}
+
+.greeting p{
+    color: white;
+}
+
+
+#hello{
+    font-family: 'Playfair', serif;
+    font-size: 24pt;
+}
+
+
+
 .work{
     padding-top: 7%;
     text-align: center;
@@ -7,8 +52,9 @@
 
 #workTitle{
     padding-bottom: 5%;
-    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Mulish', sans-serif; 
     font-size: 34pt;
+   
 }
 
 .col{  
@@ -19,8 +65,9 @@
 
 .about{
     margin-top: 2%;
-    background-color: #091540;
-    
+    background-color: #10575A;
+    position: fixed;
+    bottom: 0;
     height: 85px;
    
 }
