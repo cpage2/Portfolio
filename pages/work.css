@@ -85,8 +85,8 @@
 
 #workTitle{
     padding-bottom: 5%;
-    /* font-family: 'Mulish', sans-serif; */
-    font-family: 'Playfair', serif;
+    font-family: 'Mulish', sans-serif;
+    /* font-family: 'Playfair', serif; */
     font-size: 34pt;
     color: #10575A;
    
@@ -94,7 +94,7 @@
 
 .col{  
    padding-bottom: 70px;
-    max-width: 500px;
+    max-width: 400px;
     
 }
 
@@ -104,8 +104,8 @@
 }
 
 .col a:hover img{
-    height: 200px;
-    width: 200px !important;
+   
+    width: 270px !important;
    
 }
 
