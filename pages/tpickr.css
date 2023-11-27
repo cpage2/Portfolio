@@ -38,6 +38,12 @@
    
 }
 
+img{
+  padding: 2px 2px;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.073);
+ 
+}
+
 .icons i{
     padding-right: 5pt;
 
@@ -56,6 +62,8 @@
     
 }
 
+
+
 .project p{
     color: white;
     font-family: 'Mulish', sans-serif;
@@ -68,6 +76,11 @@
 #pName{
     font-family: 'Playfair', serif;
     font-size: 30pt;
+}
+
+.designs{
+  display: inline-block;
+  
 }
 
 .tpEdit{
