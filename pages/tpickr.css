@@ -1,11 +1,14 @@
 .row{
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
 .col p{
   font-family: 'Mulish', sans-serif;
 }
 
+.col{
+  margin-right: 5%;
+}
 
 .upperBd{
     background-color: #10575A;
@@ -78,13 +81,28 @@ img{
     font-size: 30pt;
 }
 
+.tpOne{
+  text-align: center;
+}
+
 .designs{
-  display: inline-block;
-  
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.designs p{
+  padding-top: 2%;
+  font-size: 14px;
+  color: rgb(50, 50, 50);
 }
 
 .tpEdit{
   margin-bottom: 4%;
+  text-align: center;
+}
+
+.tools{
+  margin-top: 10% ;
 }
 
 /*Modal*/

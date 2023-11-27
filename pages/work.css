@@ -75,7 +75,6 @@
 
 .work p{
     font-family: 'Mulish', sans-serif;
-    /* font-family: 'Playfair', serif; */
     margin-top: 7pt;
     letter-spacing: 1pt;
     font-weight: 500;
@@ -86,7 +85,7 @@
 #workTitle{
     padding-bottom: 5%;
     font-family: 'Mulish', sans-serif;
-    /* font-family: 'Playfair', serif; */
+    font-weight: 300;
     font-size: 34pt;
     color: #10575A;
    
