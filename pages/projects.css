@@ -81,11 +81,15 @@ img{
     font-size: 30pt;
 }
 
+.tools{
+  margin-top: 10% ;
+}
+/*Task Pickr*/
 .tpOne{
   text-align: center;
 }
 
-.designs{
+.designs{ 
   margin-bottom: 2%;
   text-align: center;
 }
@@ -101,9 +105,12 @@ img{
   text-align: center;
 }
 
-.tools{
-  margin-top: 10% ;
+/*aryl photo*/
+.wfImages{
+  margin-bottom: 2%;
 }
+
+
 
 /*Modal*/
 
@@ -136,8 +143,8 @@ img{
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 900px;
+  width: 75%;
+  max-width: 700px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
