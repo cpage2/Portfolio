@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="projects.css">
+        <title>Task Pickr (Redesign)-Portfolio</title>
+    </head>
+
+<body>
+
+    <div class="upperBd">
+        <div class="nav">
+            <a href="index.html"> <p>carolyn page</p></a>
+           
+           <div class="icons ms-auto">
+                <a href="https://www.linkedin.com/in/carolyn-page-800b08158/" target="_blank" rel = "noreferrer"><i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff ;"></i></a>
+                <a href="https://github.com/cpage2" target="_blank" rel="noreferrer"><i class="fa-brands fa-square-github fa-xl" style="color: #ffffff;"></i></a>
+                <a href="https://www.behance.net/cmpage" target="_blank" rel="noreferrer"><i class="fa-brands fa-square-behance fa-xl" style="color: #ffffff;"></i></a>
+          
+          </div>  
+       
+         </div>
+       
+      
+         <div class="project">
+           <div class="container">
+             <p id="pName">Task Pickr (Redesign)</p>
+             <p id="statement">To-do list that picks a task for you start with</p>
+           </div>
+         </div>
+    </div>
+
+    <div class="projectInfo">
+            <div class="container">
+                        <div class="row">
+
+                            <div class="col">
+                                <div class="details">
+
+                                    <div id="dTitle"><h3>Details</h3></div>
+                                    <p>I made the first Task Pickr as a project after discussing with others how I wished to-do apps could pick a task for me to start with. 
+                                        It was built with HTML, CSS, Bootstrap, and Vanilla JS, and for the design, I wanted to try making different themes. </p>
+                                        <p>Link: <a href="https://cpage2.github.io/Task-Pickr/" target="_blank"rel="noreferrer">Task Pickr #1</a></p>
+                                   
+                                    <div class="tpOne">
+                                        <img src="img/TaskPickr/Bubbles Theme.PNG" width="300px" alt="TP One -Bubbles" class="tpImages">
+                                        <img src="img/TaskPickr/nightTheme.PNG" width="300px" alt="TP One -night" class="tpImages">
+                                    </div>
+                                    <br>
+                                    <div id="myModal" class="modal">
+                                   
+                                        <span class="close">&times;</span>
+
+                                        <!-- Modal Content (The Image) -->
+                                        <img class="modal-content" id="img01">
+                                      
+                                        <!-- Modal Caption (Image Text) -->
+                                        <div id="caption"></div>
+
+                                       
+
+                                    </div>
+                                    
+                                   
+        
+                                    <p>I wasn’t fully happy with the final look. Not just in design but also in function. 
+                                        The list and picker were finicky in how they worked due to how the list deleted items. Also, there were readability issues with the font. 
+                                        After revisiting the project, researching, and playing with the site, I knew I wanted to:</p>
+                                    <div class="changes">
+                                        <ol>
+                                            <li><b> Redesign it to something simpler and more neutral.</b> I liked the bubbles’ design and was ok with the night theme but decided on something more gender-neutral. 
+                                                Also, I wasn’t completely happy with the font choice.</li>
+                                            <li><b>Remove high and low-priority sections.</b> After researching more on people with analysis paralysis and neurodivergence, and even asking close family/friends, 
+                                                not everyone can easily distinguish which tasks are more important outside of deadlines. Sometimes, even deadlines aren’t enough to push priority, so removing those sections would give more focus to the picker.
+                                            </li>
+                                            <li><b>Only pick one task instead of two.</b> No high/low- priority, no need for two tasks.  Also, it’s easier for those to focus on one task at a time.</li>
+                                            <li><b>Add edit functionality.</b> The first TP didn’t allow for the editing of tasks. The second one would.</li>
+        
+                                        </ol>
+                                    </div>
+                                    <p>I also wanted to reduild it using React to help with compartmentalizing some of the code.</p>
+        
+                                    
+                                    <p>For the new design, I kept the structure from the first TP and made the necessary changes. I also wanted to keep it to no more than 4 colors. I initially planned to do a monochromatic scheme but wanted a pop of color.
+                                        So, I went with yellow as my pop, and gray(2 shades) and white as my base colors. 
+                                    </p>
+        
+                                    <div class="wireframes">
+                                        <img src="img/TaskPickr/TP-Landscape.jpeg" alt="TP - Desktop" width="300px" class="tpImages">
+                                        <img src="img/TaskPickr/TP-Portrait.jpeg" alt="TP - Mobile" width="200px" class="tpImages">
+                                        <img src="img/TaskPickr/Screenshot (98).png" alt="TP - color" width="300px" class="tpImages">
+
+                                    </div>
+                                   <br>
+                                   <p>
+                                    Since the design was bare, I wanted something either in the background or at the bottom. I created a few designs and let family vote on the design they preferred most.
+                                    Option D won, but I would like to incorporate C in the future.
+                                   </p>
+                                   <div class="designs">
+                                        <img src="img/TaskPickr/TP_option_A.png" alt="Option A" width="300px" class="tpImages">
+                                        <img src="img/TaskPickr/TP_option_B.jpeg" alt="Option B" width="300px" class="tpImages">
+                                        <img src="img/TaskPickr/TP_option_C.jpeg" alt="Option C" width="300px" class="tpImages">
+                                        <img src="img/TaskPickr/TP_option_D.jpeg" alt="Option D" width="300px" class="tpImages">
+                                        <img src="img/TaskPickr/TP_option_E.PNG" alt="Option E" width="300px" class="tpImages">
+                                        <p>Left to right: A,B,C,D,E</p>
+                                       
+                                     
+                                   </div>
+                                   
+                                    <p>With the code, I referenced the first Task Pickr but made changes to how the list was built. Since I could use React, I could make separate components for the task list and picker. 
+                                        Each input is added to an array with a unique ID using NPM’s UUID package. The first TP used the item’s array placement as an ID which did lead to issues in deletion.
+                                       The edit function calls a popup with the task to be edited in the input. This allows users to make sure they're editing the right text before submitting.
+                                    </p>
+                                    <div class="tpEdit">
+                                        <img src="img/TaskPickr/TP2.PNG" width="400px" alt="TP Two - Edit" class="tpImages">
+                                    </div>
+                                    
+                                  
+                                    
+
+                                   
+                                </div>
+        
+                                
+
+                            </div>
+
+
+                            
+                         
+
+                            <div class="col-4">
+                                <div class="liveSite">
+                                    <div id="l_site_title"><h3>Demo Site</h3></div>
+                                    <a href="https://taskpickr.netlify.app/" target="_blank" rel="noreferrer"><img src="img/TaskPickr/TP(Ipad).png" alt="Task Pickr Live Site" width="250px"></a>
+            
+                                </div>
+                                <div class="tools">
+                                    <div id="toolsTitle"><h3>Technologies Used</h3></div>
+                                    <!-- <i class="fa-brands fa-react fa-xl" style="color: #15caea;" ></i>
+                                    <i class="fa-brands fa-bootstrap fa-xl" style="color: #65177b;"></i>
+                                    <i class="fa-brands fa-html5 fa-xl" style="color: #ca4b15;"></i>
+                                    <i class="fa-brands fa-css3-alt fa-xl" style="color: #2f57e3;"></i> -->
+                                    <p>React, HTML, CSS, Bootstrap, Linearity Curve</p>
+
+                              
+                                </div>
+            
+
+                            </div>
+
+
+                        </div>
+                    
+                        
+
+                      
+                    
+    
+            </div>
+
+    </div>
+
+
+        
+      
+         
+         
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9e4e9acfc2.js" crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>
