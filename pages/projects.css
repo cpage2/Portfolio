@@ -105,11 +105,25 @@ img{
   text-align: center;
 }
 
+.wireframes{
+  text-align: center;
+}
+
 /*aryl photo*/
 .wfImages{
   margin-bottom: 2%;
+  text-align: center;
 }
 
+
+/*homepage project*/
+.hpImages{
+  text-align: center;
+}
+
+#hpImgTitle{
+  margin-top: 5%;
+}
 
 
 /*Modal*/
