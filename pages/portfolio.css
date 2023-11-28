@@ -73,14 +73,6 @@
     
 }
 
-.work p{
-    font-family: 'Mulish', sans-serif;
-    margin-top: 7pt;
-    letter-spacing: 1pt;
-    font-weight: 500;
-    font-size: 15pt;
-    
-}
 
 #workTitle{
     padding-bottom: 5%;
@@ -90,6 +82,16 @@
     color: #10575A;
    
 }
+
+.work #projectTitle{
+    font-family: 'Mulish', sans-serif;
+    margin-top: 5%;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
 
 .col{  
    padding-bottom: 70px;
